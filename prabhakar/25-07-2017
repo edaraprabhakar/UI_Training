@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<title>Table Sample</title>
+<body>
+
+<table border="1" width="400"  cellspacing="1" cellpadding="1">
+    <caption><b>About Me</b></caption>
+    <thead>
+
+    </thead>
+    <tbody>
+    <tr >
+        <td rowspan="3">
+            <img src="../Downloads/IMG_20161217_184603703.jpg" width="225" height="300">
+        </td>
+        <td  colspan="2"><b>Prabhakar</b></td>
+    </tr>
+
+    <tr>
+
+        <td><b>Education</b></td>
+        <td>Completed masters in Information Technology</td>
+    </tr>
+
+    <tr >
+
+        <td><b>Hobbies</b></td>
+        <td>Cricket, Running and watching animated movies</td>
+    </tr>
+    <tfoot>
+    <tr>
+        <td colspan="3">Can contact me through <a href="www.gmail.com">prabhakar@gmail.com</a></td>
+    </tr>
+    </tfoot>
+    </tbody>
+
+</table>
+
+
+</body>
+</html>
